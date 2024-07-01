@@ -5,7 +5,7 @@ res = ollama.chat(
     messages=[
         {
             "role": "user",
-            "content": "How many elephants are in this image?",
+            "content": "Describe this image",
             "images": ["./fil.jpg"]
         }
     ]
